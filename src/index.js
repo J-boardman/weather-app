@@ -1,19 +1,9 @@
-import createAppendChild from "./createAppendChild";
-//ff71f5f04b4f0fca53bfdce95b8318ee
+import getLocation from "./getLocation";
+import parseInfo from "./parseInfo";
 
-const module = (() =>{
+const getInfo = async(search = 'Brisbane') => {
+    const info = await getLocation(search);
+    return parseInfo(info)
+};
 
-
-    //CACHE DOM
-
-
-    //EVENT LISTENERS
-
-
-    //RENDER
-
-
-    //ADDITIONAL FUNCTIONS
-
-
-})();
+getInfo();
