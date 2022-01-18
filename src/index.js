@@ -5,7 +5,7 @@ const weatherModule = (() => {
     //INIT: API CALL
     const search = async(search='Brisbane') => {
         try{
-            let fetching = fetch(`//api.openweathermap.org/data/2.5/weather?q=${search}&APPID=ff71f5f04b4f0fca53bfdce95b8318ee`,{mode:'cors'});
+            let fetching = fetch(`//api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=ff71f5f04b4f0fca53bfdce95b8318ee`,{mode:'cors'});
             
             let response = await fetching.then(response => response.json())
             
