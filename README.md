@@ -1,23 +1,25 @@
-# Project Name
+# Weather App
 
-## [Live Page](url)
+## [Live Page](https://j-boardman.github.io/weatherApp/)
 
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Known issues](#known-issues
+* [Known issues](#known-issues)
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is a simple weather app made as part of The Odin Project, in an attempt to better understand:
+* Working with APIs
+* Promises
+* Async / await
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* OpenWeatherMap API
 
-##Known Issues
+## Known Issues
+* I would like for the background to change according to the weather.
 * My coding ability
 	
 ## Setup
