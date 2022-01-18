@@ -85,8 +85,8 @@ const weatherModule = (() => {
 
     const dayNight = (val) => {
         val==='n' ?
-        body.style['background-image'] = `url('../src/img/landscape-1844231.png')` :
-        body.style['background-image'] = `url('../src/img/landscape-1844229.png')`
+        body.style['background-image'] = `url('./img/landscape-1844231.png')` :
+        body.style['background-image'] = `url('./img/landscape-1844229.png')`
     }
 
     //RETURN
