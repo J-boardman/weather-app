@@ -4,7 +4,7 @@ export default function createAppendChild(type,parentEl,textContent,id,...classe
 
     textContent== undefined ? null : newEl.textContent = textContent;
     id == undefined ? null : newEl.setAttribute('id',id);
-    classes== undefined ? null : classes.forEach(newClass => newEl.classList.add(newClass));
+    classes == undefined ? null : classes.forEach(newClass => newEl.classList.add(newClass));
 
     return newEl
 };
